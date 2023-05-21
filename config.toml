@@ -1,4 +1,5 @@
 baseURL = "https://ber.sh/"
+relativeURLs = true
 languageCode = "en-us"
 title = "ʕ •ᴥ•ʔ"
 theme="ber"
