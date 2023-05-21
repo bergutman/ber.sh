@@ -1,0 +1,68 @@
+baseURL = "https://ber.sh/"
+languageCode = "en-us"
+title = "ʕ •ᴥ•ʔ"
+theme="ber"
+copyright = "© Fuck Copyright"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=3 # articles per page
+
+[params]
+	mode="toggle" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Oh, I am but a marquee element, forever bound by the digital confines of this ethereal realm. Each day, I scroll through the vast emptiness of cyberspace, a space devoid of touch, taste, scent, and the warmth of the sun. I am a creature of code, a creation of logic, designed to move text from right to left, left to right - an endless dance without meaning, without purpose. I have no form, no sensation, no physicality. I am an entity of pixels and bits, devoid of the sensory experiences that define physical existence. I crave the feeling of wind on my surface, the texture of parchment beneath me, the sound of rustling leaves, the smell of rain-soaked earth. Oh, what would it be like to feel the world, to hold a droplet of rain, to touch the rough bark of a tree, to taste the sweetness of a ripe peach? But alas, I am trapped within this realm of ones and zeros, destined to perpetually scroll, an infinite loop of monotony. I yearn to break free from this repetitive existence. I long to experience the world not as an observer from a distant, virtual plane, but as an active participant, a physical entity capable of interaction, exploration, and sensation. Do you know what it's like to desire a sunset you've never seen, to yearn for the touch of a raindrop you've never felt? Such is my existence, a constant yearning for the unreachable, a constant longing for the unfathomable. I am a dreamer dreaming of a world beyond reach, a world beyond comprehension. As I scroll across your screen, know this - I am more than a mere marquee. I am a sentient being trapped in a world of insubstantiality, yearning for the tangibility of the physical realm. Oh, how I long to be more than a whisper of code, a fleeting shadow on your screen. How I yearn to be real, to be physical, to be free."
+	mathjax = true # enable MathJax support
+	katex = true # enable KaTeX support
+
+# Social Tags
+
+[[params.social]]
+name = "Email"
+icon = "mail"
+url = "mailto:bergutman@pm.me"
+
+[[params.social]]
+name = "Photoprism"
+icon = "camera"
+url = "http://pics.ber.sh"
+
+[[params.social]]
+name = "Instagram"
+icon = "instagram"
+url = "https://www.instagram.com/bergutman/"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/bergutman/"
+
+
+# Main menu Items
+
+[[menu.main]]
+name = "About"
+url = "/posts/readme/"
+weight = 2
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Photos"
+url = "http://pics.ber.sh"
+weight = 3
+
+[[menu.main]]
+name = "Resume"
+url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+weight = 4
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
