@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@700&display=swap');
+/* Fix bear icon on mobile */
 header div {
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: sans-serif !important;
 }
 /* fira-sans-regular - latin */
 @font-face {
