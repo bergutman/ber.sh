@@ -1,7 +1,7 @@
 ---
 title: "Suicide by COP28"
 date: 2023-11-20T08:07:50+02:00
-draft: false
+draft: True
 ---
 
 
