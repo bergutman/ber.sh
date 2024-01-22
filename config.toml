@@ -1,4 +1,4 @@
-baseURL = "https://ber.sh/"
+baseURL = "https://ber.earth/"
 relativeURLs = true
 languageCode = "en-us"
 title = "ʕ •ᴥ•ʔ"
@@ -28,7 +28,7 @@ url = "mailto:bergutman@pm.me"
 [[params.social]]
 name = "Photoprism"
 icon = "camera"
-url = "http://pics.ber.sh"
+url = "http://pics.ber.earth"
 
 [[params.social]]
 name = "Instagram"
@@ -55,7 +55,7 @@ weight = 2
 
 [[menu.main]]
 name = "Photos"
-url = "http://pics.ber.sh"
+url = "http://pics.ber.earth"
 weight = 3
 
 [[menu.main]]
